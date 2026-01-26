@@ -1,0 +1,134 @@
+:root {
+    --tamno-plava: #1D546D;
+    --svetlo-plava: #5F9598;
+    --bela: #F3F4F4;
+    --tamna: #061E29;
+
+}
+
+body {
+    background-color: var(--tamno-plava);
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#navigacija {
+    background-color: var(--tamna);
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    color: var(--bela);
+}
+
+#navigacija a {
+    color: var(--narandzasta);
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.ukras {
+    position: absolute;
+    top: -110px;
+    z-index: -1;
+    width: 600px;
+}
+
+.ukras-desno {
+    position: absolute;
+    top: -110px;
+    z-index: -1;
+    width: 600px;
+    right: 0;
+}
+
+/*POZIVNICA*/
+#pozivnica{
+    padding: 20px;
+    width: 60%;
+    margin: 80px auto;
+    box-shadow: 10px 10px 20px black;
+    background-color: var(--svetlo-plava);
+}
+
+#pozivnica p{
+    font-size: 30px;
+    font-family: "DynaPuff";
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 40px;
+    color: var(--bela);
+}
+
+/*ORGANIZACIJA*/
+#organizacija{
+    width: 50%;
+    margin: 10px auto;
+}
+
+#organizacija h1{
+    text-align: center;
+    color: var(--bela);
+}
+
+.organizacija-elementi img{
+    width: 200px;
+}
+
+.organizacija-elementi{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.org{
+    padding: 10px;
+    background-color: var(--svetlo-plava);
+    box-shadow: 10px 10px 10px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.org:hover{
+transform: translateY(-2px);
+}
+
+.org p{
+    margin-top: auto;
+}
+
+form{
+    background-color: var(--svetlo-plava);
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+form input[type="text"] {
+    display: block;
+    margin: 10px auto;
+    border: none;
+    padding: 5px;
+
+}
+
+form button{
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: var(--tamno-plava);
+    color: var(--bela);
+    border: none;
+}
+
+form button:hover{
+    box-shadow: 5px 5px 10px black;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
